@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Google icon  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <!-- tailwindcss and DaisyUi cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- header section  -->
+    <header>
+        <div class="flex justify-end items-center px-[17px] py-[7px] gap-4 text-[#000000DE] text-[14px]">
+            <a href="https://mail.google.com/mail/?authuser=0&ogbl" id="gmail-text" class="hover:underline cursor-pointer ">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl" id="images-text" class="hover:underline cursor-pointer">Images</a>
+            <a href="https://www.google.com.bd/intl/en/about/products" class="material-symbols-outlined text-[24px] p-2 ml-1 hover:bg-[#F0F0F0] cursor-pointer rounded-full text-[#5f6368]">apps</a>
+            <img  class="w-[33px] h-[33px] rounded-full border-[1px] border-b-slate-800 cursor-pointer
+            " src="images/profile2.png" alt="" title="Google Account">
+        </div>
+    </header>
+
+    <!-- main section  -->
+    <main>
+        <div class="flex flex-col items-center">
+            <!-- logo  -->
+            <div id="logo">
+                <img class="h-[80px] md:h-[90px] lg:h-[92px]" src="images/googlelogo.png" alt="">
+            </div>
+            <div class="flex flex-col items-center gap-8">
+                <div class="w-full  md:w-[600px] mt-5 px-5 border-[1px] border-gray-200 rounded-full flex items-center ">
+                    <a href="#"><span class="material-symbols-outlined text-[#9aa0a6] text-[20px] flex items-center justify-center">search</span></a>
+                    <input id="search-input" class="max-w-100% w-full h-[50px] pr-5 pl-2 outline-none text-base" type="text">
+                    <a href="#"><img src="images/google-search-icon.png" alt="" class="w-[14px] mr-7"></a>
+                    <a href="#"><img src="images/google-lens-icon.png" alt="" class="w-22px md:w-[22px] h-[20px]"></a>
+                </div>
+                <div class="flex gap-2 md:gap-4 text-[#3c4043] text-[15px]">
+                    <p href="#search-input" class="py-[5px] px-2 md:px-4 border-[1px] border-[#fff] hover:border-gray-300 rounded-md hover:shadow-sm cursor-pointer">Google Search</p>
+                    <a href="https://www.google.com/doodles" class="py-[5px] px-2 md:px-4 border-[1px] border-[#fff] hover:border-gray-300 rounded-md hover:shadow-sm cursor-pointer">I'm Feeling Lucky</a>
+                </div>
+                <p class="text-[14px] text-[#4d5156]">Google offered in: <a class="text-[#1a0dab]" href="#">বাংলা</a></p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- footer section  -->
+    <footer class="mt-[180px] bg-[#F2F2F2] text-[#70757a]">
+        <div class="px-7 py-2"><p>Bangladesh</p></div>
+        <hr>
+        <div class="px-7 py-2"><p>Bangladesh</p></div>
+    </footer>
+</body>
+</html>
